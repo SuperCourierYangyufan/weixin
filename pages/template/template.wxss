@@ -1,0 +1,51 @@
+.tmpContainer{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1rpx solid #eee;
+  margin: 25rpx 0;
+}
+
+
+.tmpDate{
+padding-top: 10rpx;
+}
+
+.tmpDate image{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+
+.tmpDate text{
+  font-size: 32rpx;
+}
+
+.company{
+  margin-left: 10rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  margin: 10rpx;
+}
+
+.contentImg{
+  width: 100%;
+  height: 460rpx;
+}
+
+.content{
+   font-size: 32rpx;
+   text-indent: 64rpx;
+}
+
+.collection image{
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+
+.collection text{
+  font-size: 28rpx;
+  margin-right: 10rpx;
+}

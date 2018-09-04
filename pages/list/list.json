@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#489B81",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "新闻列表",
+  "backgroundColor": "#ffffff",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false
+}

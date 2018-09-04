@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<view class='indexContainer'>
+  <image style='display: {{isShow?"none":"block"}}' class='iconimage' src="{{iconimg}}"></image>
+  <button style='display: {{isShow?"block":"none"}}' wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+  <text class='userName' style='display: {{isShow?"none":"block"}}'>你好,{{helloword}}</text>
+  <view class='gomini' style='display: {{isShow?"none":"block"}}' catchtap='handleClick'>
+    <text>{{buttonMsg}}</text>
+  </view>
+</view>

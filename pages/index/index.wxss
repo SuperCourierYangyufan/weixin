@@ -1,0 +1,29 @@
+/* pages/index/index.wxss */
+page{
+  height: 100%;
+ background: #fef;
+}
+.indexContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.iconimage{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100rpx; 
+  margin: 100rpx 0;
+}
+.userName{
+  font-size: 32rpx;
+  font-weight: 600;
+  margin: 100rpx 0;
+}
+.gomini{
+  width: 220rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+  border: 1rpx solid #999;
+  text-align: center;
+  line-height: 80rpx;
+}
